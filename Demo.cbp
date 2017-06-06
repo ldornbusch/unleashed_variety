@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Demo" />
+		<Option makefile="MAKEFILE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:/data/owncreations/coding/source/cpp/__code_blox/UnleashedVariety_Source/Release/Demo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="Winhermes" />
+					<Add library="jpeg" />
+					<Add library="ddraw" />
+					<Add library="WinMIDAS" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:/data/owncreations/coding/source/cpp/__code_blox/UnleashedVariety_Source/Debug/Demo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="winhermes" />
+					<Add library="jpeg" />
+					<Add library="ddraw" />
+					<Add library="WinMIDAS" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="ALL3DCAM.CPP" />
+		<Unit filename="ALL3DCAM.H" />
+		<Unit filename="ALL3DENG.CPP" />
+		<Unit filename="ALL3DENG.H" />
+		<Unit filename="ALL3DLIG.CPP" />
+		<Unit filename="ALL3DLIG.H" />
+		<Unit filename="ALL3DMAT.CPP" />
+		<Unit filename="ALL3DMAT.H" />
+		<Unit filename="ALL3DMSH.CPP" />
+		<Unit filename="ALL3DMSH.H" />
+		<Unit filename="ALL3DMTX.CPP" />
+		<Unit filename="ALL3DMTX.H" />
+		<Unit filename="ALL3DOBJ.CPP" />
+		<Unit filename="ALL3DOBJ.H" />
+		<Unit filename="ALL3DVEC.CPP" />
+		<Unit filename="ALL3DVEC.H" />
+		<Unit filename="All3DApp.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="All3dapp.cpp" />
+		<Unit filename="All3dwin.cpp" />
+		<Unit filename="All3dwin.h" />
+		<Unit filename="BALL.3DD" />
+		<Unit filename="BITMAP.H" />
+		<Unit filename="Bitmap.cpp" />
+		<Unit filename="Bmtext.cpp" />
+		<Unit filename="Bmtext.h" />
+		<Unit filename="CURSOR1.CUR" />
+		<Unit filename="DIRECTX.ICO" />
+		<Unit filename="Demo.cpp" />
+		<Unit filename="Demo.h" />
+		<Unit filename="ICON1.ICO" />
+		<Unit filename="LOGO.BMP" />
+		<Unit filename="MIDASDLL.H" />
+		<Unit filename="MYHERMES.H" />
+		<Unit filename="ND.3DD" />
+		<Unit filename="PLAYER.CPP" />
+		<Unit filename="PLAYER.H" />
+		<Unit filename="POINT.H" />
+		<Unit filename="SIDEASM.H" />
+		<Unit filename="SPUTNIK.3DD" />
+		<Unit filename="STAR.3DD" />
+		<Unit filename="Uptext.h" />
+		<Unit filename="WINDOW.H" />
+		<Unit filename="resource.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
